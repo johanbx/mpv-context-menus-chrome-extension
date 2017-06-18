@@ -18,7 +18,7 @@ $ cd mpv-context-menus-chrome-extension
 $ python3 mpv_server.py
 ```
 ##### Install and activate extension on chrome
-1. Open up chrome and go to "chrome://extensions/"
+1. Open up chrome and go to chrome://extensions/
 2. Check the checkbox "Developer mode"
 3. Press the button "Load unpacked extension..."
 4. Navigate and choose the folder ```~/Documents/mpv-context-menus-chrome-extension/```
