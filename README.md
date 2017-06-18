@@ -23,6 +23,13 @@ $ python3 mpv_server.py
 3. Press the button "Load unpacked extension..."
 4. Navigate and choose the folder ```~/Documents/mpv-context-menus-chrome-extension/```
 
+##### Run at startup with crontab
+In terminal, write ```$ crontab -e``` and write this at the bottom of the file:
+```
+@reboot cd ~/Documents/mpv-context-menus-chrome-extension/ && export DISPLAY=:0 && python3 mpv_server.py >> cronlog.log 2>&1
+```
+The log will be written in a new file called cronlog.log
+
 # Usage
 - Rightclick a link on page
 - Rightclick selected text on page(such as a url)
