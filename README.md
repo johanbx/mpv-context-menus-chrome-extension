@@ -18,13 +18,13 @@ $ cd mpv-context-menus-chrome-extension
 $ python3 mpv_server.py
 ```
 ##### Install and activate extension on chrome
-1. Open up chrome and go to [chrome://extensions/](chrome://extensions/)
-2. Check the checkbox "developer mode"
+1. Open up chrome and go to "chrome://extensions/"
+2. Check the checkbox "Developer mode"
 3. Press the button "Load unpacked extension..."
 4. Navigate and choose the folder ```~/Documents/mpv-context-menus-chrome-extension/```
 
 # Usage
-1. Rightclick a link on page
-2. Rightclick selected text on page(such as a url)
-3. Rightclick directly the video element on page (works sometimes)
-4. Rightclick anywhere else to automatically find the video for you
+- Rightclick a link on page
+- Rightclick selected text on page(such as a url)
+- Rightclick directly the video element on page (works sometimes)
+- Rightclick anywhere else to automatically find the video for you
