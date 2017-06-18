@@ -1,0 +1,16 @@
+{
+  "name": "Mpv Context Menus",
+  "description": "With this and a python server running you can start mpv videos from different video sources",
+  "version": "0.1",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
