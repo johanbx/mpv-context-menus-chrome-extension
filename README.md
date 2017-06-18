@@ -1,5 +1,5 @@
 # Mpv Context Menus
-Chrome extension that gives the user the choice to play video source on an external videoplayer called mpv
+Chrome extension and python3 server that gives the user the choice to play video source on an external videoplayer called mpv.
 
 # Installation on Linux
 ##### Pre requirements
