@@ -22,3 +22,9 @@ $ python3 mpv_server.py
 2. Check the checkbox "developer mode"
 3. Press the button "Load unpacked extension..."
 4. Navigate and choose the folder ```~/Documents/mpv-context-menus-chrome-extension/```
+
+# Usage
+1. Rightclick a link on page
+2. Rightclick selected text on page(such as a url)
+3. Rightclick directly the video element on page (works sometimes)
+4. Rightclick anywhere else to automatically find the video for you
