@@ -6,7 +6,7 @@ from subprocess import Popen
 class MpvServer(BaseHTTPRequestHandler):
   def do_GET(self):
     # self.path[4:] is ugly way to get first parameter value (but works..)
-    Popen(["mpv", "-vo", "opengl", self.path[4:]]) # external player mpv (dont wait)
+    Popen(["mpv", "-vo", "gpu", self.path[4:]]) # external player mpv (dont wait)
     self.send_response_only(200) # send response 200 back even if mpv failed
     self.end_headers()
 
