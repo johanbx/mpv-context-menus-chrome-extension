@@ -4,15 +4,29 @@ Chrome extension and python3 server that gives the user the choice to play video
 # Installation on Linux
 ##### Pre requirements
 
+###### Att latest mpv repo
+```
+$ sudo add-apt-repository ppa:mc3man/mpv-tests
+$ sudo apt-get update
+```
+###### Install mpv
 ```
 $ sudo apt install mpv
+```
+
+###### Install youtube-dl to mpv
+```
 $ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 $ sudo chmod a+rx /usr/local/bin/youtube-dl
+```
+
+###### Python & Git
+```
 $ sudo apt install python3
 $ sudo apt install git
 ```
-##### Setup and start server
 
+##### Setup and start server
 ```
 $ cd ~/Documents/
 $ git clone git@gitlab.ida.liu.se:johbo462/mpv-context-menus-chrome-extension.git
