@@ -49,8 +49,8 @@ $ python3 mpv_server.py
 ##### Run at startup with crontab
 In terminal, write ```$ crontab -e``` and write this at the bottom of the file:
 ```
-@reboot cd ~/Documents/mpv-context-menus-chrome-extension/ && export DISPLAY=:0 && python3 mpv_server.py >> cronlog.log 2>&1
+@reboot ~/Documents/mpv-context-menus-chrome-extension/crontab_server.sh
 ```
 
-The log will be written in a new file called cronlog.log, the log can be usefull to look at if the program is not working.
- ```$ tail ~/Documents/cronlog.log```
+The log will be written in a ```~/Documents/mpv-context-menus-chrome-extension/crontab_server.log```, the log can be usefull to look at if the program is not working.
+ ```$ tail ~/Documents/mpv-context-menus-chrome-extension/crontab_server.log```
