@@ -12,4 +12,4 @@ class MpvServer(BaseHTTPRequestHandler):
 
 if __name__ == '__main__':
   # if port/localhost is changed, make sure to also change it in background.js
-  HTTPServer(('', 8080), MpvServer).serve_forever()
+  HTTPServer(('', 7381), MpvServer).serve_forever()

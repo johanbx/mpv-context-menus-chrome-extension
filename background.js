@@ -1,6 +1,6 @@
 // Might have to change if you changed anything in the python script
 var localhost = '127.0.0.1'
-var port = '8080'
+var port = '7381'
 
 // Get the video dom as string in next callback
 function getDomString (info, tab, callback) {
